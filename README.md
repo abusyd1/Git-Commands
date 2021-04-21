@@ -3,9 +3,10 @@
 
 Sometimes you need to configure username and email – this is great for when you’re working on a team project in the same repository and want to distinguish between who is making the commits and the changes. You would use the following commands:
 
+To set a username
 > git config --global user.name “YOUR_NAME” 
 
-
+To set an email
 > git config --global user.email "YOUR_EMAIL"
 
 ## Making branches and changing branches
