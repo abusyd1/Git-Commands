@@ -29,12 +29,14 @@ Once you have made a change:
 * Push the change
 
 The following commands will do this:
+
+add change ready to be committed
 > git add .
 
-
+commit the change
 > git commit -m "message describing what change has been made"
 
-
+push the commit
 > git push 
 
 Sometimes you might see a message about setting the branch to origin, so just copy the command that it shows on the screen, which looks something like this:
