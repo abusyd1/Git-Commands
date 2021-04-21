@@ -59,7 +59,8 @@ To change a file in the terminal/command line, in linux you can use the VIM edit
 To open the file to change, type in the following (replacing filename with the name of the file)
 > vim filename
 
-It will open the file in read only mode. To go into edit mode (or insert mode), press i
+It will open the file in read only mode. To go into edit mode (or insert mode), press i.
+
 Now, make your change.
 
 To exit insert mode, press esc
