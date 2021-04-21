@@ -39,6 +39,17 @@ The following commands will do this:
 Sometimes you might see a message about setting the branch to origin, so just copy the command that it shows on the screen, which looks something like this:
 > git push --set-upstream origin branchname
 
+## Merging a change into another branch
+Say you have a branch called branch1 and you want to merge it into the master branch, you would do the following
+* Go into your master branch
+* Fetch the branch1
+* Merge the branch1 into master
+
+You should know how to go into master branch now, then to fetch branch1, type in the following:
+> git fetch origin branch1
+
+Now, to merge into master, type in the following:
+> git merge origin/master
 ## Using the VIM editor
 
 To change a file in the terminal/command line, in linux you can use the VIM editor. 
