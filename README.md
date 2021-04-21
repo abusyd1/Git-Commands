@@ -4,6 +4,7 @@
 Sometimes you need to configure username and email – this is great for when you’re working on a team project in the same repository and want to distinguish between who is making the commits and the changes. You would use the following commands:
 
 > git config --global user.name “YOUR_NAME” 
+followed by
 > git config --global user.email "YOUR_EMAIL"
 
 ## Making branches and changing branches
@@ -27,7 +28,9 @@ Once you have made a change:
 
 The following commands will do this:
 > git add .
+followed by
 > git commit -m "message describing what change has been made"
+followed by
 > git push 
 
 Sometimes you might see a message about setting the branch to origin, so just copy the command that it shows on the screen, which looks something like this:
