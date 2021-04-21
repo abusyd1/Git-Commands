@@ -63,7 +63,8 @@ It will open the file in read only mode. To go into edit mode (or insert mode), 
 
 Now, make your change.
 
-To exit insert mode, press esc
+To exit insert mode
+> press esc
 
 To save a change
 > :wq then press enter
