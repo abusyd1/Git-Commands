@@ -52,7 +52,7 @@ You should know how to go into master branch now, then to fetch branch1, type in
 > git fetch origin branch1
 
 Now, to merge into master, type in the following:
-> git merge origin/master
+> git merge origin/branch1
 ## Using the VIM editor
 
 To change a file in the terminal/command line, in linux you can use the VIM editor. 
